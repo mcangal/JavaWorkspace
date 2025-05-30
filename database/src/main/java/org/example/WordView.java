@@ -39,7 +39,7 @@ public class WordView extends JFrame {
     public String selectedWord(){
         return wordList.getSelectedValue();
     }
-    public void deleteWord(String word){
+    public void deleteWordFromList(String word){
         listModel.removeElement(word);
     }
     public void setDeleteButtonListener(ActionListener listener){

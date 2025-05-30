@@ -30,7 +30,7 @@ public class WordController {
                String selectedWord= view.selectedWord();
                if(selectedWord!= null){
                    model.deleteWord(selectedWord);
-                   view.deleteWord(selectedWord);
+                   view.deleteWordFromList(selectedWord);
                }
            }
        });
